@@ -1,0 +1,41 @@
+.homeWrapper {
+    @apply w-[100vw] h-[100vh] bg-slate-300 flex justify-center pt-10 
+}
+
+.homeChild {
+    height: fit-content;
+    @apply w-[60vw] bg-purple-500 py-5
+}
+
+.inputWrapper {
+    @apply flex items-center justify-center my-4
+}
+
+.inputWrapper input {
+    @apply rounded-sm text-2xl ring-1 px-1 mr-5
+}
+.inputWrapper input:focus {
+    outline: none;
+}
+
+.inputWrapper button {
+    @apply bg-green-500 text-xl rounded-sm p-1 font-semibold text-white  
+}
+
+.tableWrapper {
+    @apply text-white 
+}
+
+.tableWrapper table {
+    border-collapse: collapse;
+   
+    @apply w-full text-center text-xl
+}
+
+.tableWrapper table  thead {
+    @apply text-lg py-4
+}
+
+.tableWrapper tbody {
+    @apply space-y-4
+}
